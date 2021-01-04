@@ -1,0 +1,152 @@
+
+/*-------------------------------------
+    drag resizer
+--------------------------------------*/
+.comp-rotate .bar-rotate {
+    top: -30px;
+    left: 50%;
+    margin-left: -6px;
+    background-color: #44CB83;
+    border: medium none;
+    cursor: url("/assets/images/mouserotate.ico") 10 10, default;
+}
+
+.comp-resize .bar {
+    position: absolute;
+    z-index: 998;
+    display: none;
+}
+
+.region-selected .bar {
+    display: block;
+    
+}
+.region-selected .drag{
+    background: green;
+}
+.region-selected .tools {
+    display: block;
+}
+.tools {
+    z-index:10;position:absolute;
+    right: 5px;
+    display: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: red;
+}
+.comp-resize .bar-radius {
+    width: 12px;
+    height: 12px;
+    background-color: #FFF;
+    border: 1px solid #08A1EF;
+    border-radius: 12px;
+}
+
+.comp-rotate .bar-line {
+    width: 2px;
+    height: 18px;
+    top: -18px;
+    left: 50%;
+    margin-left: -1px;
+    background-color: #44CB83;
+}
+
+.comp-resize .bar-n {
+    width: 100%;
+    height: 5px;
+    top: 0px;
+    cursor: n-resize;
+    background: transparent url("bar-1px.png") repeat-x scroll 0% 0%;
+}
+
+.comp-resize .bar-s {
+    width: 100%;
+    height: 5px;
+    bottom: 0px;
+    cursor: s-resize;
+    background: transparent url("bar-1px.png") repeat-x scroll center bottom;
+}
+
+.comp-resize .bar-e {
+    width: 5px;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    cursor: e-resize;
+    background: transparent url("bar-1px.png") repeat-y scroll right center;
+}
+
+.comp-resize .bar-w {
+    width: 5px;
+    height: 100%;
+    top: 0px;
+    cursor: w-resize;
+    background: transparent url("bar-1px.png") repeat-y scroll 0% 0%;
+}
+
+.comp-resize .bar-se {
+    bottom: -6px;
+    right: -6px;
+    cursor: se-resize;
+}
+
+.comp-resize .bar-nw {
+    top: -6px;
+    left: -6px;
+    cursor: nw-resize;
+}
+
+.comp-resize .bar-sw {
+    bottom: -6px;
+    left: -6px;
+    cursor: sw-resize;
+}
+
+.comp-resize .bar-ne {
+    top: -6px;
+    right: -6px;
+    cursor: ne-resize;
+}
+
+.comp-resize .bar-n div {
+    position: absolute;
+    left: 50%;
+    top: -6px;
+    margin-left: -6px;
+}
+
+.comp-resize .bar-s div {
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
+    margin-left: -6px;
+}
+
+.comp-resize .bar-w div {
+    position: absolute;
+    top: 50%;
+    left: -6px;
+    margin-top: -6px;
+}
+
+.comp-resize .bar-e div {
+    position: absolute;
+    top: 50%;
+    right: -6px;
+    margin-top: -6px;
+}
+.drag {
+    height: 100%;
+    display: block;
+    background: white;
+    position: absolute;
+    width: 100%;
+    cursor: move;
+    opacity: 0;
+    top:0px;
+}
+.moving {
+    opacity: 0.3 !important;
+    cursor: 'move';
+}

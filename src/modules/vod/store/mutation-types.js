@@ -1,0 +1,4 @@
+'use strict'
+
+export const GET_PLAYING_LIST = 'GET_PLAYING_LIST'
+export const DELETE_PLAYING_OPTION = 'DELETE_PLAYING_OPTION'

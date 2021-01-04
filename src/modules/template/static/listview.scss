@@ -1,0 +1,109 @@
+.item {
+  position: relative;
+  width: 282px;
+  height: 360px;
+  float: left;
+  border: 1px solid #dedede;
+  margin: 10px 10px;
+  text-align: center;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #f1f4f5;
+  .overlay {
+    transition: opacity .3s ease,transform .3s ease;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 0;
+  }
+
+  .item-bottom {
+    > div:nth-child(2) {
+      height: 0;
+      padding: 0!important;
+      transition: height  .3s ease,transform .3s ease;
+    }
+  }
+
+  &:hover {
+    .overlay {
+      opacity: 1;
+    }
+
+    .item-bottom {
+      > div:nth-child(2) {
+        height: 44px;
+        padding-bottom: 16px;
+      }
+    }
+  }
+}
+
+.image {
+  width: 280px;
+  height: 316px;
+  position: relative;
+}
+
+.item-bottom {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  z-index: 3;
+}
+
+.title {
+  display: inline-block;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 36px;
+}
+
+.ribbon {
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  text-align: center;
+  z-index: 10;
+}
+
+.ribbon-inner.check {
+  background-color: #ff7e7e;
+}
+
+.ribbon .ribbon-inner {
+  position: absolute;
+  left: -30px;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  top: 6px;
+  padding: 0 20px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.horizon {
+  img {
+    width: 270px;
+    position:relative;
+    margin-top:78px;
+  }
+}
+
+.vertical {
+  img {
+    height: 270px;
+    margin-top: 23px;
+  }
+}

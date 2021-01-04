@@ -1,0 +1,47 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" },
+  "shopList": [
+    {
+      "id": 1,
+      "name": "深圳试点播1",
+      "backgroundMusic": "菊次郎的春天.mp3",
+      "screenOrientation": "横屏",
+      "creater": "管理员",
+      "created": "2018-04-02 15:20:00",
+      "address": "上海市普陀区金沙江路 1518 弄"
+    },
+    {
+      "id": 2,
+      "name": "深圳试点播2",
+      "backgroundMusic": "菊次郎的春天.mp3",
+      "screenOrientation": "横屏",
+      "creater": "管理员",
+      "created": "2018-04-02 15:20:00",
+      "address": "上海市普陀区金沙江路 1518 弄"
+    },
+    {
+      "id": 3,
+      "name": "深圳试点播3",
+      "backgroundMusic": "菊次郎的春天.mp3",
+      "screenOrientation": "横屏",
+      "creater": "管理员",
+      "created": "2018-04-02 15:20:00",
+      "address": "上海市普陀区金沙江路 1518 弄"
+    },
+    {
+      "id": 4,
+      "name": "深圳试点播4",
+      "backgroundMusic": "菊次郎的春天.mp3",
+      "screenOrientation": "横屏",
+      "creater": "管理员",
+      "created": "2018-04-02 15:20:00",
+      "address": "上海市普陀区金沙江路 1518 弄"
+    }
+  ]
+}

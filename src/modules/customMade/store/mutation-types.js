@@ -1,0 +1,7 @@
+'use strict'
+
+// export const SET_DRUGLIST = 'SET_DRUGLIST'
+export const SET_CUSTOM_JUMP_URL = 'SET_CUSTOM_JUMP_URL'
+export const SET_THUMB_PATH = 'SET_THUMB_PATH'
+export const SET_H5_CUSTOM_LISTS = 'SET_H5_CUSTOM_LISTS'
+export const REMOVE_H5_CUSTOM_LIST = 'REMOVE_H5_CUSTOM_LIST'

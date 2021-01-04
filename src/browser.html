@@ -1,0 +1,45 @@
+
+<style type="text/css">
+  .content-message {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 600px;
+  }
+  .logo {
+    font-size: 60px;
+    color: #409EFF;
+    margin-top: 10%;
+    text-align: center;
+  }
+  .content-message p {
+    font-size: 18px;
+    color: #606266;
+    line-height: 30px;
+  }
+  li {
+    list-style-type: none;
+    line-height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #606266;
+    text-decoration: none;
+  }
+  li a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+  <div class="content-message">
+    <div class="logo">
+      <img src="../static/images/eshow.png" />
+    </div>
+    <p>很抱歉，您的浏览器无法打开本网站，请选择安装以下任意浏览器，即可任性浏览啦!</p>
+    <ul>
+      <li><a href="/bank/download/browsers?type=chrome" target="downloadFile">谷歌浏览器</a></li>
+      <li><a href="/bank/download/browsers?type=qq" target="downloadFile">QQ浏览器</a></li>
+    </ul>
+    <iframe id="downloadFile" name="downloadFile" src="" frameborder="0" style="display:none"></iframe>
+  </div>
+</body>
+</html>

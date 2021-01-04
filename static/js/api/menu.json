@@ -1,0 +1,225 @@
+{
+  "menus": [
+    {
+      "name": "H5模板",
+      "icon": "fa fa-cubes",
+      "iconhover": "fa fa-cubes",
+      "url": "/customMade",
+      "permission": "H5模板",
+      "backend": "customMade"
+    },
+    {
+      "name": "素材",
+      "icon": "fa fa-file-image-o",
+      "iconhover": "fa fa-file-image-o",
+      "url": "/elements",
+      "permission": "素材管理",
+      "backend": "element"
+    },
+    {
+      "name": "模板",
+      "icon": "fa fa-window-restore",
+      "url": "/tpl",
+      "permission": "模板管理",
+      "backend": "template"
+    },
+    {
+      "name": "内容管理",
+      "icon": "fa fa-book",
+      "iconhover": "fa-book",
+      "url": "/content",
+      "permission": "内容管理",
+      "backend": "content"
+    },
+    {
+      "name": "播出单",
+      "icon": "fa fa-calendar",
+      "iconhover": "fa fa-calendar",
+      "url": "/playlistmutipletpl",
+      "permission": "播出单管理",
+      "backend": "playlist",
+      "dependencies": [
+        "模板",
+        "素材",
+        "终端"
+      ]
+    },
+    {
+      "name": "跑马灯",
+      "icon": "fa fa-exchange",
+      "url": "/marquee",
+      "permission": "跑马灯管理",
+      "backend": "marquee"
+    },
+    {
+      "name": "终端",
+      "icon": "fa fa-television",
+      "iconhover": "fa fa-television",
+      "url": "/terminals",
+      "permission": "终端管理",
+      "backend": "terminal"
+    },
+    {
+      "name": "终端维护",
+      "icon": "fa fa-television",
+      "iconhover": "fa fa-television",
+      "url": "/manage",
+      "permission": "终端管理",
+      "backend": "",
+      "dependencies": [
+        "终端"
+      ]
+    },
+    {
+      "name": "终端统计",
+      "icon": "fa fa-bar-chart",
+      "iconhover": "fa fa-bar-chart",
+      "url": "/statistics",
+      "permission": "终端统计",
+      "backend": "",
+      "dependencies": [
+        "终端"
+      ]
+    },
+    {
+      "name": "药品管理",
+      "icon": "fa fa-thermometer-full",
+      "iconhover": "fa fa-thermometer-full",
+      "url": "/drug",
+      "permission": "药品管理",
+      "backend": "drug"
+    },
+    {
+      "name": "标签管理",
+      "icon": "fa fa-thermometer-full",
+      "iconhover": "fa fa-thermometer-full",
+      "url": "/tag",
+      "permission": "标签管理"
+    },
+    {
+      "name": "拼接屏",
+      "icon": "fa fa-th",
+      "url": "/mpdp",
+      "permission": "拼接屏管理",
+      "backend": "mpdp",
+      "dependencies": [
+        "模板",
+        "素材",
+        "终端"
+      ]
+    },
+    {
+      "name": "角色",
+      "icon": "fa fa-address-card",
+      "iconhover": "fa fa-address-card",
+      "url": "/roles",
+      "permission": "角色管理",
+      "backend": "role"
+    },
+    {
+      "name": "用户",
+      "icon": "fa fa-user-o",
+      "iconhover": "fa fa-user-o",
+      "url": "/users",
+      "permission": "用户管理",
+      "backend": "user",
+      "dependencies": [
+        "角色"
+      ]
+    },
+    {
+      "name": "权限列表",
+      "icon": "fa fa-list-alt",
+      "iconhover": "fa fa-list-alt",
+      "url": "/permission",
+      "permission": "权限列表",
+      "backend": "permission"
+    },
+    {
+      "name": "系统设置",
+      "icon": "fa fa-cog",
+      "iconhover": "fa fa-cog",
+      "url": "/setting",
+      "permission": "系统设置",
+      "backend": "systemSettings"
+    },
+    {
+      "name": "天气管理",
+      "icon": "fa fa-adjust",
+      "iconhover": "fa fa-adjust",
+      "url": "/weather",
+      "permission": "天气管理",
+      "backend": "weather"
+    },
+    {
+      "name": "系统审核",
+      "icon": "fa fa-adjust",
+      "iconhover": "fa fa-adjust",
+      "url": "/examine",
+      "permission": "系统审核",
+      "backend": "audit"
+    },
+    {
+      "name": "操作日志",
+      "icon": "fa fa-file-text-o",
+      "iconhover": "fa fa-file-text",
+      "url": "/logs",
+      "permission": "查看日志",
+      "backend": ""
+    },
+    {
+      "name": "菜品分类",
+      "icon": "fa fa-window-restore",
+      "iconhover": "fa fa-window-restore",
+      "url": "/categories",
+      "permission": "菜品分类",
+      "backend": "category"
+    },
+    {
+      "name": "菜品属性",
+      "icon": "fa fa-camera-retro",
+      "iconhover": "fa fa-camera-retro",
+      "url": "/attributes",
+      "permission": "菜品属性",
+      "backend": "attribute"
+    },
+    {
+      "name": "菜品管理",
+      "icon": "fa fa-th",
+      "iconhover": "fa fa-th",
+      "url": "/products",
+      "permission": "菜品管理",
+      "backend": "product"
+    },
+    {
+      "name": "套餐管理",
+      "icon": "fa fa-shopping-cart",
+      "iconhover": "fa fa-shopping-cart",
+      "url": "/packets",
+      "permission": "套餐管理",
+      "backend": "packet"
+    },
+    {
+      "name": "支付管理",
+      "icon": "fa fa-file-text-o",
+      "iconhover": "fa fa-file-text",
+      "url": "/payment",
+      "permission": "支付管理",
+      "backend": ""
+    },
+    {
+      "name": "版面管理",
+      "icon": "fa fa-window-restore",
+      "url": "/terminaltemps",
+      "permission": "版面管理",
+      "backend": "terminaltemp"
+    },
+    {
+      "name": "订单管理",
+      "icon": "fa fa-window-restore",
+      "url": "/ordering",
+      "permission": "订单管理",
+      "backend": "ordering"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+html {
+  font-size: 62.5%;
+}
+.terminaltemp-index {
+  width: 100%;
+  height: 100%;
+  background-color: #F5F5F5;
+  box-sizing: border-box;
+  .terminaltemp-index-shadow {
+    width: 100%;
+    height: 5px;
+    background-color: #E0E0E0;
+    background-image: linear-gradient(#E0E0E0, #f5f2f2);
+  }
+  .terminaltemp-index-header {
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    font-size: 20px;
+    color: #928E8E;
+    background-color: #FFFFFF;
+    .terminaltemp-index-header-col-1, .terminaltemp-index-header-col-2, .terminaltemp-index-header-col-3 {
+      float: left;
+      height: 100%;
+      box-sizing: border-box;
+    }
+    .terminaltemp-index-header-col-1 {
+      width: 460px;
+      padding: 0 20px;
+    }
+    .terminaltemp-index-header-col-3 {
+      float: right;
+      width: 250px;
+      font-size: 14px;
+    }
+  }
+  .terminaltemp-index-row {
+    width: 100%;
+    height: calc(100% - 61px);
+    box-sizing: border-box;
+    .terminaltemp-index-col-1, .terminaltemp-index-col-2, .terminaltemp-index-col-3 {
+      float: left;
+      height: 100%;
+      box-sizing: border-box;
+    }
+    .terminaltemp-index-col-1 {
+      width: 410px;
+    }
+    .terminaltemp-index-col-2 {
+      width: calc(100% - 660px);
+      .el-main::-webkit-scrollbar {
+        width: 7px;
+        height: 7px;
+      }
+      .el-main::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background: #EAE9EA;
+      }
+      .el-main::-webkit-scrollbar-track {
+        border-radius: 4px;
+        background: transparent;
+      }
+    }
+    .terminaltemp-index-col-3 {
+      float: right;
+      width: 250px;
+      background-color: #FFFFFF;
+    }
+  }
+  .el-container {
+    height: 100%;
+    .el-header {
+      line-height: 40px;
+      font-size: 16px;
+      text-align: center;
+    }
+    .el-footer {
+      line-height: 40px;
+    }
+    .card {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      background-color: #F1F4F8;
+      box-shadow: 0 0 5px 2px #E0E0E0;
+      overflow-x: hidden;
+      overflow-y: auto;
+
+      // > div {
+      //   position: absolute;
+      // }
+
+      .el-carousel {
+        width: 100%;
+        left: 0px;
+      }
+    }
+    .el-tabs {
+      height: 100%;
+      .el-tabs__header {
+        margin: 0;
+        background-color: #FFFFFF;
+      }
+      .el-tabs__content {
+        height: 100%;
+        .el-tab-pane {
+          width: 208px;
+          height: 100%;
+          background-color: #FBFBFC;
+          ul {
+            width: 100%;
+            height: 100%;
+            padding: 0 10px;
+            box-shadow: 2px 0 5px #E0E0E0;
+            overflow: auto;
+            li {
+              font-size: 14px;
+              text-align: center;
+              overflow: hidden;
+              .modelListName {
+                padding: 10px 0;
+              }
+              .modelListItem {
+                position: relative;
+                width: 182px;
+                height: 104px;
+                text-align: center;
+                background-color: rgba(190, 188, 188, 0.28);
+                cursor: pointer;
+                img {
+                  position: absolute;
+                  display: block;
+                  max-width: 100%;
+                  max-height: 100%;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                }
+                span {
+                  line-height: 104px;
+                }
+                .plus-remove-icon {
+                  position: absolute;
+                  right: 5px;
+                  bottom: 5px;
+                  font-size: 0;
+                }
+              }
+              .modelListItem:hover {
+                border: 1px solid #3F94EF;
+              }
+              .modelListItem + .modelListItem {
+                margin-top: 10px;
+              }
+            }
+            li + li {
+              margin-top: 20px;
+            }
+          }
+          ul::-webkit-scrollbar {
+            width: 7px;
+            height: 7px;
+          }
+          ul::-webkit-scrollbar-thumb {
+            border-radius: 4px;
+            background: #EAE9EA;
+          }
+          ul::-webkit-scrollbar-track {
+            border-radius: 4px;
+            background: #FBFBFC;
+          }
+        }
+      }
+    }
+  }
+  header, footer {
+    line-height: 60px;
+    text-align: center;
+    font-size: 14px;
+  }
+}

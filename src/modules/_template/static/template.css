@@ -1,0 +1,108 @@
+.item {
+  position: relative;
+  width: 282px;
+  height: 360px;
+  float: left;
+  border: 1px solid #dedede;
+  margin: 10px 10px;
+  text-align: center;
+  background-color: #f1f4f5;
+  border-radius: 3px;
+  overflow: hidden;
+  display: inline;
+}
+
+.item .overlay {
+  transition: opacity .3s ease,transform .3s ease;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.item .item-bottom > div:nth-child(2) {
+  height: 0;
+  padding: 0 !important;
+  transition: height  .3s ease,transform .3s ease;
+}
+
+.item:hover .overlay {
+  opacity: 1;
+}
+
+.item:hover .item-bottom > div:nth-child(2) {
+  height: 44px;
+  padding-bottom: 16px;
+}
+
+.image {
+  width: 280px;
+  height: 316px;
+  position: relative;
+}
+
+.item-bottom {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  z-index: 3;
+  min-height: 52px;
+}
+
+.title {
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.title p {
+  line-height: 26px;
+}
+
+.title p:first-child {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.ribbon {
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  text-align: center;
+  z-index: 10;
+}
+
+.ribbon-inner.check {
+  background-color: #ff7e7e;
+}
+
+.ribbon .ribbon-inner {
+  position: absolute;
+  left: -30px;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  top: 6px;
+  padding: 0 20px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.horizon img {
+  width: 270px;
+  position: relative;
+  margin-top: 78px;
+}
+
+.vertical img {
+  height: 270px;
+  margin-top: 23px;
+}

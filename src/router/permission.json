@@ -1,0 +1,22 @@
+{
+  "permission": [
+    {
+      "id": 1,
+      "name": "terminal",
+      "parent_id": null,
+      "route": "/terminal"
+    },
+    {
+      "id": 2,
+      "name": "terminal",
+      "parent_id": 1,
+      "route": "/index"
+    },
+    {
+      "id": 3,
+      "name": "roles",
+      "parent_id": null,
+      "route": "/roles"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "0-0",
+    "special_name": "广告模型",
+    "special_type": "ad-custom",
+    "thumbImage": "/static/images/model_thumb/model_list_thumb_007.png",
+    "intro": "",
+    "width": 488,
+    "height": 153,
+    "top": 0,
+    "leftlength": 0,
+    "comData": []
+  },
+  {
+    "id": "1-0",
+    "special_name": "商品模型",
+    "special_type": "product-custom",
+    "thumbImage": "/static/images/model_thumb/model_list_thumb_008.png",
+    "intro": "",
+    "width": 488,
+    "height": 222,
+    "top": 0,
+    "leftlength": 0,
+    "comData": []
+  },
+  {
+    "id": "2-0",
+    "special_name": "导航+商品模型",
+    "special_type": "menu-custom",
+    "thumbImage": "/static/images/model_thumb/model_list_thumb_009.png",
+    "intro": "",
+    "width": 488,
+    "height": 421,
+    "top": 0,
+    "leftlength": 0,
+    "comData": []
+  },
+  {
+    "id": "3-0",
+    "special_name": "分隔线模型",
+    "special_type": "divider-custom",
+    "thumbImage": "/static/images/model_thumb/model_list_thumb_010.png",
+    "intro": "",
+    "width": 488,
+    "height": 40,
+    "top": 0,
+    "leftlength": 0,
+    "comData": []
+  }
+]

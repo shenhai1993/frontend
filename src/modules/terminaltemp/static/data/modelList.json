@@ -1,0 +1,174 @@
+[
+  {
+    "id": 0,
+    "special_name": "广告模型",
+    "special_type": "ad-carousel",
+    "thumbImage": "/static/images/model_thumb/model_list_thumb_001.png",
+    "intro": "轮播广告",
+    "width": 0,
+    "height": 153,
+    "top": 0,
+    "leftlength": 0,
+    "comData": [
+      {
+        "mainImg": "/static/images/model_thumb/model_list_thumb_001.png"
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "special_name": "广告模型",
+    "special_type": "ad-single",
+    "thumbImage": "/static/images/model_thumb/model_list_thumb_001.png",
+    "intro": "单图广告",
+    "width": 0,
+    "height": 100,
+    "top": 0,
+    "leftlength": 0,
+    "comData": [
+      {
+        "mainImg": "/static/images/model_thumb/model_list_thumb_001.png"
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "special_name": "logo模型",
+    "special_type": "logo-model",
+    "thumbImage": "/static/images/model_thumb/model_list_thumb_001.png",
+    "intro": "logo图片",
+    "width": 90,
+    "height": 62,
+    "top": 10,
+    "leftlength": 9,
+    "comData": [
+      {
+        "mainImg": "/static/images/model_thumb/model_list_thumb_001.png"
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "special_name": "商品模型",
+    "special_type": "product-model",
+    "thumbImage": "/static/images/model_thumb/model_list_thumb_002.png",
+    "intro": "单个商品-纵向",
+    "width": 360,
+    "height": 550,
+    "top": 0,
+    "leftlength": 0,
+    "comData": [
+      {
+        "id": 0,
+        "attr": [
+          {
+            "sname": "缩略图",
+            "tname": "img_url",
+            "type": "image",
+            "val": "/static/images/model_thumb/model_list_thumb_001.png",
+            "width": 360,
+            "height": 360,
+            "top": 0,
+            "left": 0
+          },
+          {
+            "sname": "名称",
+            "tname": "name",
+            "type": "text",
+            "val": "名称",
+            "size": 12,
+            "color": "#343434",
+            "weight": "normal",
+            "top": 380,
+            "left": 0
+          },
+          {
+            "sname": "价格",
+            "tname": "buy_price",
+            "type": "text",
+            "val": "价格",
+            "size": 12,
+            "color": "#BF1616",
+            "weight": "normal",
+            "top": 460,
+            "left": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "special_name": "商品模型",
+    "special_type": "product-model",
+    "thumbImage": "/static/images/model_thumb/model_list_thumb_005.png",
+    "intro": "单个商品-横向",
+    "width": 660,
+    "height": 310,
+    "top": 0,
+    "leftlength": 0,
+    "comData": [
+      {
+        "id": 0,
+        "attr": [
+          {
+            "sname": "缩略图",
+            "tname": "img_url",
+            "type": "image",
+            "val": "/static/images/model_thumb/model_list_thumb_001.png",
+            "width": 310,
+            "height": 310,
+            "top": 0,
+            "left": 0
+          },
+          {
+            "sname": "名称",
+            "tname": "name",
+            "type": "text",
+            "val": "名称",
+            "size": 12,
+            "color": "#343434",
+            "weight": "normal",
+            "top": 34,
+            "left": 350
+          },
+          {
+            "sname": "价格",
+            "tname": "buy_price",
+            "type": "text",
+            "val": "价格",
+            "size": 12,
+            "color": "#BF1616",
+            "weight": "normal",
+            "top": 200,
+            "left": 350
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "special_name": "商品模型",
+    "special_type": "menu-product-one",
+    "thumbImage": "/static/images/model_thumb/model_list_thumb_005.png",
+    "intro": "左边分类+多个商品-横向",
+    "width": 0,
+    "height": 421,
+    "top": 0,
+    "leftlength": 0,
+    "comData": []
+  },
+  {
+    "id": 0,
+    "special_name": "商品模型",
+    "special_type": "menu-product-two",
+    "thumbImage": "/static/images/model_thumb/model_list_thumb_002.png",
+    "intro": "左边分类+多个商品-纵向",
+    "width": 0,
+    "height": 421,
+    "top": 0,
+    "leftlength": 0,
+    "comData": []
+  }
+]
